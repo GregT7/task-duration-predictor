@@ -1,0 +1,12 @@
+assign_ID,Class,Type,Name,Due Date,"Initial Difficulty (1 - easy, 10 - hard)",Ending Difficulty,num_questions,Formats,Notes
+1,Crypto,Homework,Homework #1,1/19/2025,5,5,18,calculation,
+2,OS,Quiz,Quiz #1,17-Jan,1,2,5,multiple choice,"There was one problem I didn't really understand that came directly from lecture dealing with mechanisms and policies, had to do some research and it made more sense afterwards. I was able to get it right"
+3,Crypto,Quiz,Quiz #1,23-Jan,3,2,2,"calculations, extended-response, true/false","Questions were easy, they were copied exactly from the book but I had brain fog and know I got the first question wrong"
+4,Crypto,Custom_Quiz,Intro custom quiz,19-Jan,3,7,17,"short-answer, fill-in-the-blank, True/False, extended response, calculation",
+5,Teams,Project,Image Recognition Program,2-May,7,,,,
+6,OS,Custom_Quiz,Week 1 custom quiz,19-Jan,3,5,53,"short answers, fill-in-the-blank, True/False, extended response",
+7,Crypto,Custom_Quiz,Week 1.B custom quiz,20-Jan,3.5,4.5,22,"short answers, fill-in-the-blank, True/False, extended response",
+8,Graph,Custom_Quiz,Week 1 quiz,20-Jan,8,7.5,17,"calculations, extended-response, true/false",
+9,cTheory,Custom_Quiz,Week 1 quiz,22-Jan,3,,29,"calculation, short-answer, extended-response, fill-in-the-blank, true/false",
+10,OS,Project,Project #1,2-Feb,4,,,,
+11,cTheory,Quiz,Quiz #1,22-Jan,4,6.5,15,multiple choice,"A lot of the content on the quiz was not covered in class, I read part of the book so I had an advantage"
