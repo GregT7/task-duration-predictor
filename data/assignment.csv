@@ -1,12 +1,35 @@
-assign_ID,Class,Type,Name,Due Date,"Initial Difficulty (1 - easy, 10 - hard)",Ending Difficulty,num_questions,Formats,Notes
+aID,Class,Type,Name,Due,iDifficulty,fDifficulty,num_questions,Formats,Notes
 1,Crypto,Homework,Homework #1,1/19/2025,5,5,18,calculation,
 2,OS,Quiz,Quiz #1,17-Jan,1,2,5,multiple choice,"There was one problem I didn't really understand that came directly from lecture dealing with mechanisms and policies, had to do some research and it made more sense afterwards. I was able to get it right"
-3,Crypto,Quiz,Quiz #1,23-Jan,3,2,2,"calculations, extended-response, true/false","Questions were easy, they were copied exactly from the book but I had brain fog and know I got the first question wrong"
-4,Crypto,Custom_Quiz,Intro custom quiz,19-Jan,3,7,17,"short-answer, fill-in-the-blank, True/False, extended response, calculation",
+3,Crypto,Quiz,Quiz #1,23-Jan,3,2,2,"calculations, extended-response, true-false","Questions were easy, they were copied exactly from the book but I had brain fog and know I got the first question wrong"
+4,Crypto,Custom_Quiz,Intro custom quiz,19-Jan,3,7,17,"short-answer, fill-in-the-blank, true-false, extended response, calculation",
 5,Teams,Project,Image Recognition Program,2-May,7,,,,
-6,OS,Custom_Quiz,Week 1 custom quiz,19-Jan,3,5,53,"short answers, fill-in-the-blank, True/False, extended response",
-7,Crypto,Custom_Quiz,Week 1.B custom quiz,20-Jan,3.5,4.5,22,"short answers, fill-in-the-blank, True/False, extended response",
-8,Graph,Custom_Quiz,Week 1 quiz,20-Jan,8,7.5,17,"calculations, extended-response, true/false",
-9,cTheory,Custom_Quiz,Week 1 quiz,22-Jan,3,,29,"calculation, short-answer, extended-response, fill-in-the-blank, true/false",
+6,OS,Custom_Quiz,Week 1 custom quiz,19-Jan,3,5,53,"short answers, fill-in-the-blank, true-false, extended response",
+7,Crypto,Custom_Quiz,Week 1.B custom quiz,20-Jan,3.5,4.5,22,"short answers, fill-in-the-blank, true-false, extended response",
+8,Graph,Custom_Quiz,Week 1 quiz,20-Jan,8,7.5,17,"calculations, extended-response, true-false",
+9,cTheory,Custom_Quiz,Week 1 quiz,22-Jan,3,3,29,"calculation, short-answer, extended-response, fill-in-the-blank, true-false",
 10,OS,Project,Project #1,2-Feb,4,,,,
 11,cTheory,Quiz,Quiz #1,22-Jan,4,6.5,15,multiple choice,"A lot of the content on the quiz was not covered in class, I read part of the book so I had an advantage"
+12,cTheory,Homework,Homework #1,29-Jan,3,4,3,calculation,Draw 3 DFA's with the last one being a little difficult
+13,Crypto,Custom_Quiz,Week 2 custom quiz,26-Jan,2,2,15,"true-false, extended-response, fill-in-the-blank, matching, short-answer",
+14,Graph,Custom_Quiz,Week 2 custom quiz,26-Jan,4,8,15,"calculation, extended-response",
+15,cTheory,Custom_Quiz,Week 2 custom quiz,26-Jan,2,4,10,"fill-in-the-blank, true-false, draw, extended-response, short-answer",
+16,Crypto,Homework,Homework #2,2-Feb,7.5,6,23,calculation,"6 big questions, with 23 total sub questions"
+17,Career,Interview,EPIC - prepare for phone interview,29-Jan,4,6,,"personality assessment, phone interview, programming assessment, aptitude sentences",
+18,Crypto,Quiz,Quiz #2,4-Feb,6,3,4,Calculation,Just 1 question brought up into 4 smaller projects
+19,OS,Quiz,Quiz #2,31-Jan,2,4,5,multiple choice,"One of the problems was not handled correctly, causing confusion and wasting time. Had to email professor"
+20,cTheory,Quiz,Quiz #2,5-Feb,2,3,,multiple choice,
+21,Career,Network,CECS Career Fair Networking,30-Jan,9,6,,,Company meet & greet + actual career fair
+22,Graph,Homework,Homework #1,5-Feb,7,9,22,,
+23,Teams,Reflection,Action Logs,1-Feb,1,1,,,
+24,Productivity,Project,Task Time Predictor,,,,,,
+25,cTheory,Custom_Quiz,Week 3 custom quiz,2-Feb,2,2,13,,
+26,OS,Custom_Quiz,Week 3 custom quiz,2-Feb,2,4,15,"short-answer, extended response, true-false, fill-in",
+27,Crypto,Homework,HW #3,11-Feb,7,5,14,,"6 big questions, "
+28,OS,Quiz,Quiz #3,7-Feb,3,2,5,,
+29,Graph,Midterm,Midterm #1,12-Feb,4,7,30,calculation,
+30,Career,Project,Search and get my first cs dev job,,7,,,,
+31,Teams,Project,Radio Transmission,2-May,,,,,
+33,Therapy,Project,OCD project,,,,,,
+34,cTheory,Quiz,Quiz #3,5-Feb,4,6,15,,
+35,Crypto,Quiz,Quiz #3,11-Feb,6,4,4,,

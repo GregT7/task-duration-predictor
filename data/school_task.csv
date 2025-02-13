@@ -1,4 +1,4 @@
-ID,Comprehension (1 weak understanding - 5 strong understanding),Focus (1 - 5),Content Difficulty (1 easy - 5 hard),Motivation/Mood (1 reluctant - 5 eager),Concepts/Topics,Notes
+ID,Comprehension,Focus,cDifficulty,Motivation,Concepts,Notes
 5,4.00,4,1,3,"syllabus, OS intro",
 10,1.00,1,4,3,"opencv, github",
 14,2.00,2,4,3,"opencv, hog, image feature extraction, python, machine learning, nearest centroid classifier, circle classification",
@@ -14,7 +14,6 @@ ID,Comprehension (1 weak understanding - 5 strong understanding),Focus (1 - 5),C
 34,2.50,3,3.5,3,"moore's law, modular arithmetic",
 35,3.50,3,3.5,2,"syllabus, additive set property, multiplication set property, factorial, permutations",
 40,3.00,2.5,2,2,"design principles, mechanism, policy, kernels, OS structure, user mode, kernel mode, protections",
-44,-,-,-,3,syllabus,
 45,2.00,2,3,1,"finite automata, regular languages, finite state machine",
 47,2.00,2,4,4,"image recognition, project logistics, task assignment, hough circle transform, histogram of oriented gradients, opencv",Created some additional deathstar images using generative ai for additional testing
 49,3.50,4,3,5,histogram of oriented gradients,
@@ -41,11 +40,92 @@ ID,Comprehension (1 weak understanding - 5 strong understanding),Focus (1 - 5),C
 84,7.00,3,2,3,"FSM, finite automaton, sets",Finished most Qs
 85,7.00,2,3,1.5,"FSM, finite automaton, sets",Finished last Q
 94,7.00,4,4,4,"HOG, kNN, image recognition",reviewed kNN + Hog logo classification p1
-98,9.00,4.5,4,5,"HOG, kNN, image recognition",reviewed kNN + Hog logo classification p2
-99,8.00,1.5,4,2.5,"HOG, kNN, image recognition",reviewed kNN + Hog logo classification p3
-101,7.00,3,2,4,"OS Installation, image.iso, wsl, ubuntu",Setup OS software for proj 1
-102,7.50,3,1.5,2.5,"DFA, NFA, trap/dead states, inverting FSMs","took quiz, a lot of questions were not covered in lecture, probably came from the book"
-103,9.50,3.5,2,4,"Training data vs Testing data, HOG, kNN","reformatted Github repository, downloaded non-death star images, researched test vs training datasets"
-104,9.00,2.5,2,3.5,"HOG, kNN",
-105,7.00,1.5,1.5,2,moore's law,
-106,6.00,1,2,3,"block cipher, stream cipher",Had lecture and took quiz last 20 mins of lecture. The questions were over the alphine cipher and modular arithmetic. Both questions were pulled directly from the book. Wished I studied a little bit more.
+99,9.00,4.5,4,5,"HOG, kNN, image recognition",reviewed kNN + Hog logo classification p2
+100,8.00,1.5,4,2.5,"HOG, kNN, image recognition",reviewed kNN + Hog logo classification p3
+102,7.00,3,2,4,"OS Installation, image.iso, wsl, ubuntu",Setup OS software for proj 1
+103,7.50,3,1.5,2.5,"DFA, NFA, trap/dead states, inverting FSMs","took quiz, a lot of questions were not covered in lecture, probably came from the book"
+104,9.50,3.5,2,4,"Training data vs Testing data, HOG, kNN","reformatted Github repository, downloaded non-death star images, researched test vs training datasets"
+105,9.00,2.5,2,3.5,"HOG, kNN",
+106,7.00,1.5,1.5,2,moore's law,
+107,6.00,1,2,3,"block cipher, stream cipher",Had lecture and took quiz last 20 mins of lecture. The questions were over the alphine cipher and modular arithmetic. Both questions were pulled directly from the book. Wished I studied a little bit more.
+113,3.00,1,2,1,"OS coding, bootloader, kernel","Was not able to pay attention at all, lecture was just spent going over project 1 and how to set up everything"
+115,5.00,2.5,1,2,"DFA, inverting FSMs",
+116,4.00,2,2,2,"DFA, inverting FSMs",
+117,3.50,2,2.5,2,"DFA, inverting FSMs",
+120,4.00,4,2,4,"RNG, block cipher, stream cipher",
+121,2.50,3,4,2,"circular permutations, multisets, combinations",
+122,4.00,2.5,2,2,"DFA, NFA, trap/dead states, inverting FSMs",
+126,3.50,1.5,3,3,stream cipher,
+129,6.00,4,3,9,"HOG, kNN, image recognition",Started working but had to go to the bathroom
+130,6.00,4,3,9,"HOG, kNN, image recognition","Wrote up image recognition code, got it working, and it's 100% accurate so far"
+132,7.00,3,2,4,"HAL, protected mode, real mode, BIOS interrupts, assembly, kernel",Close to finishing ch3 slides
+135,3.00,1.5,1,4,"test plan, kNN, HOG, github","Couldn't think very well, just another work day, stressed"
+137,4.00,1.5,3.5,1.5,"stream cipher, primitive polynomial","Could not pay attention to save my life, was about to fall asleep"
+141,2.50,3,4,4,"HOG, kNN, image recognition, data augmentation",
+142,1.00,1,4.5,1,"pigeon hole principle, multiset permutation, multiset combination, multiset",
+145,2.00,1,1,1,,
+148,7.00,2,3,3,,
+149,2.00,2,2,8,,
+150,4.00,4,3,4,,
+151,7.00,2,2,2,,
+154,2.00,1,4,2,"block cipher, DES",
+157,3.00,3,3,4,"circular permutations, combinations",
+160,2.00,2,2,2,,
+161,3.50,2,2,2,,
+162,2.00,1,3,2,,
+164,2.00,1,3,2,,
+170,2.00,2.5,7,4,,
+171,2.00,3,7,3,,
+173,2.00,2,8,2,,
+174,2.00,2,9,2,,
+175,1.00,2.5,1,2,,
+111,3.00,2,2.5,3,,
+183,3.00,1,2,1.5,,
+188,6.00,2.5,2,2,processes,
+193,8.00,4,2,3.5,"BIOS interrupt, HAL, execution mode, real mode, protected mode",
+194,8.00,4,2,3,"NFA, powerset",
+196,8.00,4,2,4,,
+198,6.00,2,,3,,Brain was more sharp
+199,4.00,2,3,3,,
+200,4.00,2,3,2,,
+201,5.00,2.5,4,2,DES,Quiz
+205,8.00,3,2,4,,
+209,2.00,3,5,1,,
+210,6.00,2,2,2,,
+211,8.00,3.5,8,5,,
+213,2.00,3,5,2,,
+214,3.00,2,2.5,2,,
+215,3.00,2,5,1.5,,
+216,3.00,2,3.5,3,,
+219,3.00,2,3,3,,
+220,1.50,2,4.5,1,,
+222,6.00,1.5,4,2,,
+223,4.00,2,5,1,,
+224,4.00,2,3.5,2,,
+225,6.00,1,2,1,,
+227,4.00,1,2,1,,
+233,8.00,4,3,5,,
+234,6.00,3,1.5,3.5,,
+235,4.00,2,5,4,,
+237,10.00,4,1,5,,Downloaded 500 images p2
+239,10.00,3,1,5,,Downloaded 500 images p2
+245,3.00,1,3,1.5,,
+246,6.00,1.5,3,2.5,,
+249,6.00,2,3.5,3,,
+251,2.50,2,7,4,,
+257,6.00,2,2,1.5,,
+261,5.00,2,4,2,,
+263,6.00,2,4,3,,
+266,5.00,2,3,2,,
+267,6.00,2,3,4,,
+268,3.00,3,4,4,,
+269,7.00,3,2,3,,
+270,8.00,3,2,4,,
+271,7.00,1,4,3,,
+272,6.00,2,4,3,,
+273,8.00,4,2,2,,
+277,8.00,3,3,4,,
+278,8.00,3.5,2,1.5,,
+279,7.00,4,2,5,,
+280,4.00,2,3.5,2,,
+281,9.00,4,1,5,,
