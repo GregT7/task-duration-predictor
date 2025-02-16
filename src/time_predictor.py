@@ -71,12 +71,15 @@ target = 'Sum'
 numeric_features = ['fDifficulty']
 categorical_features = ['Class', 'Type']
 
-X = data[features]
-y = data[target]
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-model = create_model(X_train, y_train, numeric_features, categorical_features)
 
-y_pred = model.predict(X_test)
-mae = mean_absolute_error(y_test, y_pred)
+print(data)
+# X = data[features]
+# y = data[target]
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# model = create_model(X_train, y_train, numeric_features, categorical_features)
 
-print(f'Mean Absolute Error: {mae:.2f} minutes')
+# y_pred = model.predict(X_test)
+# mae = mean_absolute_error(y_test, y_pred)
+
+# print(f'Mean Absolute Error: {mae:.2f} minutes')
+# print(model.score(X_test, y_test))
