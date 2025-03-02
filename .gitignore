@@ -1,4 +1,4 @@
 # ^test\d{0,2}\.py
-test[0-9]?[0-9]?\.py
+test[0-9]?\.py
 img
 venv
