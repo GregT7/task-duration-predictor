@@ -63,8 +63,8 @@ p_event['Duration'] = p_event['Duration'].dt.total_seconds() / 60
 p_event = p_event[['ID', 'aID', 'Subject', 'Type', 'Duration']]
 
 
-time_sum = p_event.groupby('aID').agg({'Duration': 'sum', 'ID': 'count'}).reset_index()
-time_sum = time_sum.rename(columns={'Duration':'Sum', 'ID': 'Count'})
+time_sum = p_event.groupby('aID').agg({'Duration': 'sum'}).reset_index()
+time_sum = time_sum.rename(columns={'Duration':'Sum'})
 time_sum = pd.merge(time_sum, assignment, on='aID')
 class_filters = ['Digital Design', 'OP Systems', 'CORG', 'Data SA', 'Databases',
                    'Circuits', 'DBMS', 'Comparative', 'Teams I', 'Embedded', 'SWE']
@@ -74,9 +74,9 @@ time_sum = time_sum[time_sum['Class'].isin(class_filters)]
 data = time_sum[time_sum['Type'].isin(type_filters)]
 data = data.loc[:, ~data.columns.str.contains('^Unnamed')]
 
-features = ['Class', 'Type', 'Count']
+features = ['Class', 'Type']
 target = 'Sum'
-numeric_features = ['Count']
+numeric_features = []
 categorical_features = ['Class', 'Type']
 
 X = data[features]
@@ -90,14 +90,10 @@ mae = mean_absolute_error(y_test, y_pred)
 print(f'Mean Absolute Error: {mae:.2f} minutes')
 print(model.score(X_test, y_test))
 
-# new_data = pd.DataFrame({
-#     'Class': ['DBMS'],  # Example class
-#     'Type': ['Project'],
-#     'Count': 10
-# })
+new_data = pd.DataFrame({
+    'Class': ['DBMS'],  # Example class
+    'Type': ['Quiz']
+})
 
-# predicted_time = model.predict(new_data)
-# print(f'Predicted time: {predicted_time[0]:.2f} minutes')
-
-count = data.groupby(['Class', 'Type']).agg({'Count': 'mean'})
-print(count)
+predicted_time = model.predict(new_data)
+print(f'Predicted time: {predicted_time[0]:.2f} minutes')
